@@ -9,6 +9,7 @@ public class SmartTv {
 
 
     public void aumentarCanal(){
+        
         canal++;
     }
 
