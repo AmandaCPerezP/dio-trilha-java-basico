@@ -1,12 +1,15 @@
 public class Operadores {
     public static void main(String[] args) {
-       int a, b;
+        boolean condicao1 = true;
 
-       a = 6;
-       b = 6;
+        boolean condicao2 = true;
 
-       int resultado = a==b ? 1 : 0;
-       System.out.println(resultado);
-
+        if(condicao1 && (7 > 4)){
+            System.out.println("as duas condições são verdadeiras");
+        }
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+        System.out.println("fim");
     }
 }
